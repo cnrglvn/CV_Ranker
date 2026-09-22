@@ -8,7 +8,7 @@ Upload a job description and a batch of candidate CVs (`.txt` files), and the ap
 
 ## How it works
 
-The tool is written in Python. For each uploaded CV it sends a request to the Google Gemini API, which scores each candidate against the job description and returns a structured JSON output. The interface is Streamlit; a lightweight web
+The tool is written in Python. For each uploaded CV it sends a request to the Google Gemini API, which scores each candidate against the job description and returns a structured JSON output. The interface is Streamlit; a lightweight Python-to-web-app UI library that handles page information, file upload, and the results table.
 
 Each candidate is scored independently in a single API call, with error handling for both API failures and malformed model output, so one bad response doesn't break the whole batch. The interface is handled by Streamlit, a lightweight Python-to-web-app UI library, which handles title, file upload, and results table.
 
