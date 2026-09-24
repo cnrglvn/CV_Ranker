@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Ranker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div id="topbar">
+                <article class="trylink">
+                    <p class="reghead"><a href="https://github.com/cnrglvn/CV_Ranker">TRY IT HERE</a></p>
+                </article>
+                <div class="data">
+                    <p class="subtext">Auth: CG</p>
+                    <p class="subtext">Last: dd/mm/yyyy</p>
+                </div>
+            </div>
+            <h1 class="largehead">CV Ranker</h1>
+        </header>
+        <main>
+            <p class="regtext">
+                Built as a self-taught python project, this is a small tool that screens and ranks candidate CVs against a job description, using an LLM to score suitability and explain its reasoning.
+            </p>
+            <br>
+            <h2 class="reghead">
+                What & How
+            </h2>
+            <p class="regtext">
+                Upload a job description and a batch of candidate CVs (.txt files), and the app scores each candidate against the role, returning a ranked table with a match score (0–100) and a one-sentence explanation for each.
+                <br>
+                <br>
+                The tool is written in Python. For each uploaded CV it sends a request to the Google Gemini API, which independently scores each candidate against the job description and returns a structured JSON output. The interface is Streamlit; a lightweight Python-to-web-app UI library that handles page information, file upload, and the results table. The model has built-in graceful error handling for API failure and malformed model output.
+            </p>
+        </main>
+    </section>
+</body>
+</html>

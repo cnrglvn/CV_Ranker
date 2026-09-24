@@ -1,0 +1,44 @@
+body {
+    background-color: darksalmon;
+}
+.regtext {
+    color: antiquewhite;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 22px;
+    border: 2px solid antiquewhite;
+    width: fit-content;
+    height: fit-content;
+    margin: 15px;
+    padding: 15px;
+}
+
+.reghead {
+    color: antiquewhite;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-size: 28px;
+}
+
+.largehead {
+    color: antiquewhite;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    font-size: 58px;
+    margin: 15px;
+}
+
+.subtext {
+    color: antiquewhite;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 12px;
+    text-align: right;
+}
+
+.trylink {
+    margin-left: 15px;
+    margin-top: -15px;
+}
+#topbar {
+    display: flex;
+    justify-content: space-between;
+}
