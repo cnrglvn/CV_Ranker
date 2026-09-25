@@ -1,4 +1,6 @@
-# CV Ranker
+                      # CV Ranker
+
+        <<https://cnrglvn.github.io/CV_Ranker/>>
 
 Built as a self taught python project, this is a small tool that screens and ranks candidate CVs against a job description, using an LLM to score suitability and explain its reasoning.
 
